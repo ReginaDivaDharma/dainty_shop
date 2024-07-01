@@ -1,0 +1,135 @@
+html,
+body {
+  height: 100%;
+  /* background-color: rgb(158, 108, 108); */
+  /* color: #42385d; */
+}
+
+body {
+  display: flex;
+  display: block;
+  align-items: center;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.btn-colors{
+  border-color: #292A5E;
+  color: #292A5E;
+}
+
+.btn-colors:hover {
+  background-color: #292A5E;
+  color: white;
+}
+
+.text-nav{
+ color: #292A5E;
+}
+
+.form-login, .form-signup{
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-login .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-login input[type="email"] {
+  margin-bottom: 5px;
+  /* border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; */
+}
+
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  /* border-top-left-radius: 0;
+  border-top-right-radius: 0; */
+}
+
+.form-signup input[type="text"] {
+  margin-bottom: 5px;
+}
+
+.form-signup input[type="email"] {
+  margin-bottom: 5px;
+}
+
+.form-signup input[type="password"] {
+  margin-bottom: 5px;
+}
+
+.form-signup .form-select{
+  margin-bottom: 5px;
+}
+
+#floatingSelectCountry{
+  margin-bottom: 20px;
+}
+
+.go-here{
+  margin-top: 10px;
+}
+
+
+.border-blue{
+  border-color: #292A5E;
+}
+
+.dropdown-menu > li > a:hover {
+  background-image: none;
+  background-color: #292A5E;
+  color: white;
+}
+
+.nav-link:hover{
+  font-weight: bolder;
+  color: #292A5E;
+}
+
+.input-group{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.input-group-append button{
+  margin-left: 1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.prods{
+  /* margin-top: 10px; */
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.form-check, .form-group label{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-container{
+  padding: 10px;
+  width: 750px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu{
+  margin-top: 15px;
+}
+
+
+
